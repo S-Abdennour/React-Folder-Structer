@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# PHP dependencies
+backend/vendor/
+
+# PHP logs
+backend/storage/logs/*.log
+
+# Docker local overrides
+docker-compose.override.yml
